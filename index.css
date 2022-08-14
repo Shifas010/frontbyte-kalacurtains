@@ -11,6 +11,7 @@ a {
 
 .nav-item {
   margin: 5%;
+ 
 
 }
 
@@ -51,7 +52,6 @@ a {
 #nav-pack ul {
 
   list-style: none;
-  padding-right: 45%;
   padding-top: 2%;
 }
 
@@ -214,7 +214,7 @@ a {
     -0.5px -0.5px 10px rgb(118, 116, 116),
     -0.5px -0.5px 10px rgba(236, 230, 230, 0.15),
     0px 12px 10px -10px rgba(0, 0, 0, 0.5);
-
+  
 }
 
 .flop-card {
@@ -259,12 +259,9 @@ a {
   height: 20em;
   width: 20em;
   display: block;
+ 
 }
 
-.card:hover.flop-card {
-  opacity: 1;
-
-}
 
 .card-body h5 {
   font-size: x-large;
@@ -353,7 +350,7 @@ a {
 
 }
 
-@media(max-width:1228px) {
+@media screen and (max-width:1228px) {
   .footer-about {
     width: 20em;
     margin-left: 15%;
@@ -370,11 +367,14 @@ a {
     top: 540px;
 
   }
+  
+  
+  }
 
-}
 
 
-@media(max-width:740px) {
+
+@media screen and (max-width:740px) {
   .footer-about {
     width: 10em;
   }
@@ -400,7 +400,9 @@ a {
   }
 
   .card-img-top {
-    width: 100%;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
 
   }
 }
@@ -427,7 +429,7 @@ a {
 }
 
 .company-details {
-  height: 540px;
+  height:fit-content;
   float: left;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -454,13 +456,13 @@ a {
   padding-left: 85%;
   z-index: 1;
   position: fixed;
-  top: 620px;
+  top: 420px;
   border-top-right-radius: 359px;
 
 
 }
 
-@media(max-width:992px) {
+@media screen and (max-width:992px) {
   .whatsapp {
     font-size: 50px;
   }
@@ -479,6 +481,15 @@ a {
     border-right: 0.5px;
     width: 30em;
 
+  }.service-card {
+    float: left;
+    height: fit-content;
+    align-items: center;
+    margin-right: 40px;
+  
+  }.company-photo {
+    height: 340px;
+    float: left;
   }
 
   .footer-about {
@@ -502,9 +513,34 @@ a {
     list-style-type: none;
 
 
+  }.Clients {
+    height: 400px;
+    float: left;
+    border-color: black;
+    display:none;
+  
+  
+  
+  }
+ 
+    
+  
+  
+  }@media screen and (min-width:992px){
+  .Clients-x {
+    height: 300px;
+    float: left;
+    border-color: black;
+    display:none;
+  
+  
+  
+  
   }
 
-  @media(min-width:1552px) {
+}
+
+  @media screen and (min-width:1552px) {
     .footer-about {
       margin-left: 5%;
       width: 17%;
@@ -519,7 +555,7 @@ a {
       margin-left: 40%;
     }
   }
-}
+
 
 .email {
   padding: 5%;
@@ -555,7 +591,15 @@ a {
 
 .form-groupc :hover {
   background-color: #f0b6a8;
-  ;
+  
+
+}.Clients-x {
+  height: 300px;
+  float: left;
+
+  
+  
+
 
 }
 
@@ -565,20 +609,18 @@ a {
 }
 
 .fusion {
-  background-color: #fff;
+ 
   width: 100%;
-  height: 10em;
+  height: 15em;
   float: left;
-
-}
-
-.Clients {
-  height: 300px;
-  float: left;
+  align-content: center;
   border-color: black;
+  padding-left:1px;
 
 
 }
+
+
 
 .over-lay {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
@@ -651,6 +693,35 @@ a {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
+  }
+}@media screen and (max-width: 443px){
+  .navbar-nav{
+  width:100%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+    
+  }  .nav-item button {
+    border-color: #ffff;
+    height: fit-content;
+    border-right: 0.5px;
+    width: 15em;
+
+  }.company-photo {
+    height: 300px;
+    float: left;
+  }.footer-about{
+   margin-left:20%;
+  }.fusion {
+    width: 100%;
+    height: 10em;
+    float: left;
+    align-content: center;
+    border-color: black;
+    padding-left:1px;
+ 
+  
+  
+  
   }
 }
 
