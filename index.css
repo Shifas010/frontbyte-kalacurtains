@@ -203,11 +203,11 @@ a {
 .card {
   float: left;
   background-attachment: fixed;
-
   align-items: center;
   padding-right: 5px;
   margin-right: 1px;
   margin: 3%;
+  height:35em;
   border-bottom-right-radius: 90px;
   box-shadow: inset 1px 2px 2px -5px rgba(0, 0, 0, 0.2),
     -4px -4px 6px -1px rgba(109, 108, 108, 0.7),
@@ -260,6 +260,8 @@ a {
   width: 20em;
   display: block;
  
+}.card-body{
+  height: 20em;
 }
 
 
@@ -364,7 +366,7 @@ a {
 
   .whatsapp {
     position: fixed;
-    top: 540px;
+   border-bottom:0%;
 
   }
   
@@ -435,9 +437,18 @@ a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.5em;
   font-weight: 500;
+  width:100%;
   color: black;
-  background-color: #00B7FF;
+  
+}.showroom img{
+  height:400px;
+  float: left;
+  width:100%;
+  border-radius:2%;
+  background-color: rgb(198, 235, 235);
 }
+ 
+
 
 .company-photo {
   height: 540px;
@@ -448,6 +459,7 @@ a {
 
   width: 100%;
   height: 100%;
+  border-radius:2%;
 }
 
 .whatsapp {
@@ -456,7 +468,7 @@ a {
   padding-left: 85%;
   z-index: 1;
   position: fixed;
-  top: 420px;
+  top: 620px;
   border-top-right-radius: 359px;
 
 
@@ -485,7 +497,8 @@ a {
     float: left;
     height: fit-content;
     align-items: center;
-    margin-right: 40px;
+    margin-right: 20px;
+  
   
   }.company-photo {
     height: 340px;
@@ -521,6 +534,8 @@ a {
   
   
   
+  }.card{
+    height:32em;
   }
  
     
@@ -532,11 +547,8 @@ a {
     float: left;
     border-color: black;
     display:none;
-  
-  
-  
-  
-  }
+   }
+   
 
 }
 
@@ -686,6 +698,7 @@ a {
     flex: 50%;
     max-width: 50%;
   }
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -695,6 +708,8 @@ a {
     max-width: 50%;
   }.curten-section{
     height: 550px;
+  }.card{
+    height:32em;
   }
 }@media screen and (max-width: 443px){
   .navbar-nav{
