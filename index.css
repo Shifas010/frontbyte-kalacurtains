@@ -256,7 +256,7 @@ a {
 }
 
 .card-img-top {
-  height: 20em;
+  height: 250px;
   width: 20em;
   display: block;
  
@@ -405,6 +405,7 @@ a {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+   
 
   }
 }
@@ -459,7 +460,6 @@ a {
 
   width: 100%;
   height: 100%;
-  border-radius:2%;
 }
 
 .whatsapp {
