@@ -17,70 +17,57 @@ a {
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
 }
-
 .nav-item button {
   border-color: #ffff;
   height: fit-content;
   border-radius: 10px;
 }
-
 .nav-item button :hover {
   background-color: rgb(207, 194, 194);
   border-color: rgb(207, 194, 194);
   color: #fff;
 }
-
 .navbar {
-  top: 0%;
+ top: 0%;
   width: 100%;
 }
-
 #nav-pack {
   display: none;
   list-style: none;
 }
-
 #nav-pack ul {
   list-style: none;
   padding-top: 2%;
 }
-
 .nav-number {
   float: right;
   list-style-type: none;
   color: rgb(4, 4, 4);
 }
-
 .dropdown-menu {
   margin-left: 50%;
 }
-
 #nav-packb {
   list-style: none;
 }
-
 #nav-packb ul {
   list-style: none;
   padding-top: 2%;
 }
-
 .image {
   border-top-left-radius: 100px;
   border-bottom-right-radius: 90px;
 }
-
 .figure {
   width: 100%;
   float: left;
 }
-
 .carousel-item h5 {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: rgb(210, 206, 206);
 }
-
 .header-top {
   height: auto;
   font-family: Paolo Biagini;
@@ -89,7 +76,6 @@ a {
   text-shadow: 2px 4px 6px;
   background-color: red;
 }
-
 .header-top:hover {
   letter-spacing: 1.5px;
   transition: tranform 0.5;
@@ -99,7 +85,6 @@ a {
   animation: move 3s;
   animation-direction: ease out;
 }
-
 .header-bottam {
   height: auto;
   font-family: Paolo Biagini;
@@ -129,11 +114,11 @@ a {
 @keyframes move {
   20% {
     left: 0px;
-  }
+ }
 
   100% {
     left: 30px;
-  }
+ }
 }
 
 .a-side {
@@ -142,8 +127,8 @@ a {
   animation-timing-function: ease;
   animation: move 2s;
   animation-direction: reverse;
-}
 
+}
 .card {
   float: left;
   background-attachment: fixed;
@@ -151,17 +136,19 @@ a {
   padding-right: 5px;
   margin-right: 1px;
   margin: 3%;
-  margin-left: 5%;
-  height: 35em;
+  
+  margin-left:5%;
+  height:35em;
   border-bottom-right-radius: 90px;
   box-shadow: inset 1px 2px 2px -5px rgba(0, 0, 0, 0.2),
     -4px -4px 6px -1px rgba(109, 108, 108, 0.7),
     -0.5px -0.5px 10px rgb(118, 116, 116),
     -0.5px -0.5px 10px rgba(236, 230, 230, 0.15),
     0px 12px 10px -10px rgba(0, 0, 0, 0.5);
+  
 }
-
 .flop-card {
+
   float: left;
   background-attachment: fixed;
   align-items: center;
@@ -176,65 +163,43 @@ a {
     -0.5px -0.5px 10px rgb(118, 116, 116),
     -0.5px -0.5px 10px rgba(236, 230, 230, 0.15),
     0px 12px 10px -10px rgba(0, 0, 0, 0.5);
-}
-
-.d-block {
+}.d-block {
   width: 100%;
   height: 600px;
-}
-
-.card-page {
+}.card-page {
   height: 540 px;
   float: left;
   padding: 2%;
   float: left;
   background-position: center;
-}
-
-.card-img-top {
+}.card-img-top {
   height: 250px;
   width: 20em;
   display: block;
-}
-
-.card-body {
+ }.card-body{
   height: 20em;
-}
-
-.card-body h5 {
+}.card-body h5 {
   font-size: x-large;
   font-weight: 700;
   font-family: sans-serif;
-}
-
-.service-card {
+}.service-card {
   float: left;
   height: fit-content;
   align-items: center;
-}
-
-.card-page h1 {
+}.card-page h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.btn:hover {
+}.btn:hover {
   background-color: #ffff;
   color: black;
-}
-
-.contact {
+}.contact {
   float: left;
   height: auto;
   background-color: black;
   text-decoration: none;
   text-align: center;
-}
-
-.contact a {
-  color: #ffff;
-}
-
-.map li {
+}.contact a {
+ color: #ffff;
+}.map li {
   list-style-type: none;
   text-align: center;
   text-decoration: none;
@@ -243,18 +208,26 @@ a {
   display: inline-flex;
   width: fit-content;
   height: 10em;
+
+
+
 }
 
 .contact a {
   text-decoration-color: #ffff;
+
 }
 
 .footer-about {
   height: fit-content;
+
   float: left;
   padding: 4%;
   margin: 5%;
-  width: 23%;
+  margin: 8px;
+
+
+
 }
 
 .footer-about li {
@@ -264,6 +237,10 @@ a {
   text-indent: 20px;
   text-decoration: none;
   list-style-type: none;
+
+
+
+
 }
 
 @media screen and (max-width:1228px) {
@@ -280,13 +257,19 @@ a {
 
   .whatsapp {
     position: fixed;
-    border-bottom: 0%;
+   border-bottom:0%;
+
   }
-}
+  
+  
+  }
+
+
+
 
 @media screen and (max-width:740px) {
   .footer-about {
-    width: 15em;
+    width: 10em;
   }
 
   .fab {
@@ -295,17 +278,26 @@ a {
 
   .btn {
     font-size: 10px;
+
+
   }
 
   .d-block {
     width: 100%;
     height: 400px;
+
+
+
+
+
   }
 
   .card-img-top {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+   
+
   }
 }
 
@@ -316,6 +308,7 @@ a {
   text-align: center;
   height: fit-content;
   text-decoration: none;
+
 }
 
 .footer p {
@@ -330,23 +323,24 @@ a {
 }
 
 .company-details {
-  height: fit-content;
+  height:fit-content;
   float: left;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.5em;
   font-weight: 500;
-  width: 100%;
+  width:100%;
   color: black;
-}
-
-.showroom img {
-  height: 400px;
+  
+}.showroom img{
+  height:400px;
   float: left;
-  width: 100%;
-  border-radius: 2%;
+  width:100%;
+  border-radius:2%;
   background-color: rgb(198, 235, 235);
 }
+ 
+
 
 .company-photo {
   height: 540px;
@@ -354,6 +348,7 @@ a {
 }
 
 .company-photo iframe {
+
   width: 100%;
   height: 100%;
 }
@@ -366,6 +361,8 @@ a {
   position: fixed;
   top: 620px;
   border-top-right-radius: 359px;
+
+
 }
 
 @media screen and (max-width:992px) {
@@ -375,7 +372,6 @@ a {
 
   .footer-about {
     font-size: 15px;
-    margin-left: 10%;
   }
 
   .card-img-top {
@@ -388,27 +384,31 @@ a {
     border-right: 0.5px;
     width: 30em;
 
-  }
-
-  .service-card {
+  }.service-card {
     float: left;
     height: fit-content;
     align-items: center;
     margin-right: 30px;
-  }
-
-  .company-photo {
+  
+  
+  }.company-photo {
     height: 340px;
     float: left;
+  }
+
+  .footer-about {
+
+    margin-left: 5%;
   }
 
   #nav-pack {
     display: contents;
     list-style-type: none;
-  }
 
-  .card-page {
+
+  }.card-page{
     margin-right: 5%;
+
   }
 
   .dropdown-menu {
@@ -418,52 +418,56 @@ a {
   #nav-packb {
     display: none;
     list-style-type: none;
-  }
 
-  .Clients {
+
+  }.Clients {
     height: 400px;
     float: left;
     border-color: black;
-    display: none;
+    display:none;
+  
+  
+  
+  }.card{
+    height:32em;
   }
-
-  .card {
-    height: 32em;
-  }
-
-  .showroom img {
-    height: 300px;
+  .showroom img{
+    height:300px;
     float: left;
-    width: 100%;
-    border-radius: 2%;
+    width:100%;
+    border-radius:2%;
     background-color: rgb(198, 235, 235);
   }
-}
-
-@media screen and (min-width:992px) {
+    
+  
+  
+  }@media screen and (min-width:992px){
   .Clients-x {
     height: 300px;
     float: left;
     border-color: black;
-    display: none;
-  }
+    display:none;
+   }
+   
+
 }
 
-@media screen and (min-width:1552px) {
-  .footer-about {
-    margin-left: 5%;
-    width: 19%;
+  @media screen and (min-width:1552px) {
+    .footer-about {
+      margin-left: 5%;
+      width: 17%;
+    }
+
+    .d-block {
+      width: 100%;
+      height: 600px;
+    }
+
+    .dropdown-menu {
+      margin-left: 40%;
+    }
   }
 
-  .d-block {
-    width: 100%;
-    height: 600px;
-  }
-
-  .dropdown-menu {
-    margin-left: 40%;
-  }
-}
 
 .email {
   padding: 5%;
@@ -471,6 +475,7 @@ a {
   float: left;
   width: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .curten-page {
@@ -499,11 +504,16 @@ a {
 
 .form-groupc.btn:hover {
   background-color: #f0b6a8;
-}
+  
 
-.Clients-x {
+}.Clients-x {
   height: 300px;
   float: left;
+
+  
+  
+
+
 }
 
 .form-groupc input {
@@ -512,13 +522,18 @@ a {
 }
 
 .fusion {
+ 
   width: 100%;
   height: 15em;
   float: left;
   align-content: center;
   border-color: black;
-  padding-left: 1px;
+  padding-left:1px;
+
+
 }
+
+
 
 .over-lay {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
@@ -529,13 +544,16 @@ a {
   float: left;
   text-align: center;
   color: #fff;
+
 }
 
 .curten-content {
   width: 100%;
   height: 20em;
   margin-top: 2%;
+
   float: left;
+
 }
 
 .curten-img img {
@@ -543,6 +561,7 @@ a {
   height: 20em;
   padding: 5%;
 }
+
 
 .header {
   text-align: center;
@@ -558,6 +577,7 @@ a {
   padding: 0 4px;
 }
 
+
 .column {
   -ms-flex: 25%;
   flex: 25%;
@@ -572,22 +592,14 @@ a {
   width: 100%;
 }
 
+
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
-
-  .whatsapp {
-    font-size: 70px;
-    width: 5%;
-    padding-left: 85%;
-    z-index: 1;
-    position: fixed;
-    top: 600px;
-    border-top-right-radius: 359px;
-  }
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -595,60 +607,44 @@ a {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
-  }
-
-  .curten-section {
+  }.curten-section{
     height: 550px;
+  }.card{
+    height:32em;
+   
+ 
   }
-
-  .card {
-    height: 32em;
-  }
-
-  .footer-about {
-    width: 20em;
-    padding-left: 15%;
-  }
-}
-
-@media screen and (max-width: 443px) {
-  .navbar-nav {
-    width: 100%;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-  }
-
-  .nav-item button {
+}@media screen and (max-width: 443px){
+  .navbar-nav{
+  width:100%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+    
+  }  .nav-item button {
     border-color: #ffff;
     height: fit-content;
     border-right: 0.5px;
     width: 15em;
-  }
 
-  .company-photo {
+  }.company-photo {
     height: 300px;
     float: left;
-  }
-
-  .fusion {
+  }.footer-about{
+   margin-left:20%;
+  }.fusion {
     width: 100%;
     height: 10em;
     float: left;
     align-content: center;
     border-color: black;
-    padding-left: 1px;
-  }
-
-  .footer-about {
-    width: 12em;
-    margin-left: 10%;
-  }
+    padding-left:1px;
+ }
 }
 
 .row :hover {
   transform: scale(1.03);
-}
 
-.over-lay h1 {
-  margin-top: 10%;
+}.over-lay h1 {
+  margin-top:10%;
+
 }
