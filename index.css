@@ -11,34 +11,26 @@ a {
 
 .nav-item {
   margin: 5%;
- 
-
 }
 
 .navbar-nav {
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
-
 }
 
 .nav-item button {
   border-color: #ffff;
   height: fit-content;
   border-radius: 10px;
-
-
-
 }
 
 .nav-item button :hover {
   background-color: rgb(207, 194, 194);
   border-color: rgb(207, 194, 194);
   color: #fff;
-
 }
 
 .navbar {
-
   top: 0%;
   width: 100%;
 }
@@ -46,11 +38,9 @@ a {
 #nav-pack {
   display: none;
   list-style: none;
-
 }
 
 #nav-pack ul {
-
   list-style: none;
   padding-top: 2%;
 }
@@ -59,9 +49,6 @@ a {
   float: right;
   list-style-type: none;
   color: rgb(4, 4, 4);
-
-
-
 }
 
 .dropdown-menu {
@@ -69,32 +56,22 @@ a {
 }
 
 #nav-packb {
-
   list-style: none;
-
 }
 
 #nav-packb ul {
-
   list-style: none;
   padding-top: 2%;
 }
 
-
-
-
-
 .image {
   border-top-left-radius: 100px;
   border-bottom-right-radius: 90px;
-
-
 }
 
 .figure {
   width: 100%;
   float: left;
-
 }
 
 .carousel-item h5 {
@@ -102,22 +79,15 @@ a {
   font-weight: 800;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: rgb(210, 206, 206);
-
 }
 
-
 .header-top {
-
   height: auto;
   font-family: Paolo Biagini;
   text-align: center;
   padding-bottom: 5%;
   text-shadow: 2px 4px 6px;
   background-color: red;
-
-
-
-
 }
 
 .header-top:hover {
@@ -128,27 +98,19 @@ a {
   animation-timing-function: ease;
   animation: move 3s;
   animation-direction: ease out;
-
-
 }
 
 .header-bottam {
-
   height: auto;
   font-family: Paolo Biagini;
   text-align: center;
   padding-bottom: 5%;
   text-shadow: 2px 4px 6px;
-
-
-
-
 }
 
 .header-bottam:hover {
   letter-spacing: 1.5px;
   transition: tranform 0.5;
-
 }
 
 .image:hover {
@@ -162,30 +124,16 @@ a {
   animation-timing-function: ease;
   animation: move 3s;
   animation-direction: ease out;
-
-
-
-
-
 }
 
 @keyframes move {
   20% {
     left: 0px;
-
-
-
-
   }
 
   100% {
     left: 30px;
-
-
   }
-
-
-
 }
 
 .a-side {
@@ -194,10 +142,6 @@ a {
   animation-timing-function: ease;
   animation: move 2s;
   animation-direction: reverse;
-
-
-
-
 }
 
 .card {
@@ -207,18 +151,17 @@ a {
   padding-right: 5px;
   margin-right: 1px;
   margin: 3%;
-  height:35em;
+  margin-left: 5%;
+  height: 35em;
   border-bottom-right-radius: 90px;
   box-shadow: inset 1px 2px 2px -5px rgba(0, 0, 0, 0.2),
     -4px -4px 6px -1px rgba(109, 108, 108, 0.7),
     -0.5px -0.5px 10px rgb(118, 116, 116),
     -0.5px -0.5px 10px rgba(236, 230, 230, 0.15),
     0px 12px 10px -10px rgba(0, 0, 0, 0.5);
-  
 }
 
 .flop-card {
-
   float: left;
   background-attachment: fixed;
   align-items: center;
@@ -226,23 +169,18 @@ a {
   margin-right: 1px;
   display: block;
   background-color: #ff3300;
-  margin: 3%;
+  margin: 4%;
   border-bottom-right-radius: 90px;
   box-shadow: inset 1px 2px 2px -5px rgba(0, 0, 0, 0.2),
     -4px -4px 6px -1px rgba(109, 108, 108, 0.7),
     -0.5px -0.5px 10px rgb(118, 116, 116),
     -0.5px -0.5px 10px rgba(236, 230, 230, 0.15),
     0px 12px 10px -10px rgba(0, 0, 0, 0.5);
-
 }
-
 
 .d-block {
   width: 100%;
   height: 600px;
-
-
-
 }
 
 .card-page {
@@ -250,20 +188,18 @@ a {
   float: left;
   padding: 2%;
   float: left;
-  margin: 5%;
   background-position: center;
-
 }
 
 .card-img-top {
   height: 250px;
   width: 20em;
   display: block;
- 
-}.card-body{
-  height: 20em;
 }
 
+.card-body {
+  height: 20em;
+}
 
 .card-body h5 {
   font-size: x-large;
@@ -271,28 +207,20 @@ a {
   font-family: sans-serif;
 }
 
-
 .service-card {
   float: left;
   height: fit-content;
   align-items: center;
-
 }
 
 .card-page h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
 .btn:hover {
   background-color: #ffff;
   color: black;
-
 }
-
-
-
-
 
 .contact {
   float: left;
@@ -303,9 +231,7 @@ a {
 }
 
 .contact a {
-
   color: #ffff;
-
 }
 
 .map li {
@@ -317,26 +243,18 @@ a {
   display: inline-flex;
   width: fit-content;
   height: 10em;
-
-
-
 }
 
 .contact a {
   text-decoration-color: #ffff;
-
 }
 
 .footer-about {
   height: fit-content;
-
   float: left;
   padding: 4%;
   margin: 5%;
-  margin: 8px;
-
-
-
+  width: 23%;
 }
 
 .footer-about li {
@@ -346,10 +264,6 @@ a {
   text-indent: 20px;
   text-decoration: none;
   list-style-type: none;
-
-
-
-
 }
 
 @media screen and (max-width:1228px) {
@@ -366,19 +280,13 @@ a {
 
   .whatsapp {
     position: fixed;
-   border-bottom:0%;
-
+    border-bottom: 0%;
   }
-  
-  
-  }
-
-
-
+}
 
 @media screen and (max-width:740px) {
   .footer-about {
-    width: 10em;
+    width: 15em;
   }
 
   .fab {
@@ -387,26 +295,17 @@ a {
 
   .btn {
     font-size: 10px;
-
-
   }
 
   .d-block {
     width: 100%;
     height: 400px;
-
-
-
-
-
   }
 
   .card-img-top {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
-   
-
   }
 }
 
@@ -417,7 +316,6 @@ a {
   text-align: center;
   height: fit-content;
   text-decoration: none;
-
 }
 
 .footer p {
@@ -432,24 +330,23 @@ a {
 }
 
 .company-details {
-  height:fit-content;
+  height: fit-content;
   float: left;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.5em;
   font-weight: 500;
-  width:100%;
+  width: 100%;
   color: black;
-  
-}.showroom img{
-  height:400px;
+}
+
+.showroom img {
+  height: 400px;
   float: left;
-  width:100%;
-  border-radius:2%;
+  width: 100%;
+  border-radius: 2%;
   background-color: rgb(198, 235, 235);
 }
- 
-
 
 .company-photo {
   height: 540px;
@@ -457,7 +354,6 @@ a {
 }
 
 .company-photo iframe {
-
   width: 100%;
   height: 100%;
 }
@@ -470,8 +366,6 @@ a {
   position: fixed;
   top: 620px;
   border-top-right-radius: 359px;
-
-
 }
 
 @media screen and (max-width:992px) {
@@ -481,6 +375,7 @@ a {
 
   .footer-about {
     font-size: 15px;
+    margin-left: 10%;
   }
 
   .card-img-top {
@@ -493,28 +388,27 @@ a {
     border-right: 0.5px;
     width: 30em;
 
-  }.service-card {
+  }
+
+  .service-card {
     float: left;
     height: fit-content;
     align-items: center;
-    margin-right: 20px;
-  
-  
-  }.company-photo {
-    height: 340px;
-    float: left;
+    margin-right: 30px;
   }
 
-  .footer-about {
-
-    margin-left: 5%;
+  .company-photo {
+    height: 340px;
+    float: left;
   }
 
   #nav-pack {
     display: contents;
     list-style-type: none;
+  }
 
-
+  .card-page {
+    margin-right: 5%;
   }
 
   .dropdown-menu {
@@ -524,50 +418,52 @@ a {
   #nav-packb {
     display: none;
     list-style-type: none;
+  }
 
-
-  }.Clients {
+  .Clients {
     height: 400px;
     float: left;
     border-color: black;
-    display:none;
-  
-  
-  
-  }.card{
-    height:32em;
+    display: none;
   }
- 
-    
-  
-  
-  }@media screen and (min-width:992px){
+
+  .card {
+    height: 32em;
+  }
+
+  .showroom img {
+    height: 300px;
+    float: left;
+    width: 100%;
+    border-radius: 2%;
+    background-color: rgb(198, 235, 235);
+  }
+}
+
+@media screen and (min-width:992px) {
   .Clients-x {
     height: 300px;
     float: left;
     border-color: black;
-    display:none;
-   }
-   
-
+    display: none;
+  }
 }
 
-  @media screen and (min-width:1552px) {
-    .footer-about {
-      margin-left: 5%;
-      width: 17%;
-    }
-
-    .d-block {
-      width: 100%;
-      height: 600px;
-    }
-
-    .dropdown-menu {
-      margin-left: 40%;
-    }
+@media screen and (min-width:1552px) {
+  .footer-about {
+    margin-left: 5%;
+    width: 19%;
   }
 
+  .d-block {
+    width: 100%;
+    height: 600px;
+  }
+
+  .dropdown-menu {
+    margin-left: 40%;
+  }
+}
 
 .email {
   padding: 5%;
@@ -575,7 +471,6 @@ a {
   float: left;
   width: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
 .curten-page {
@@ -597,42 +492,33 @@ a {
 }
 
 .form-groupc {
-  background-color: rgb(99, 96, 96);
+  background-color: rgb(6, 6, 6);
   border: #f0b6a8;
+  border-radius: 5px;
 }
 
-.form-groupc :hover {
+.form-groupc.btn:hover {
   background-color: #f0b6a8;
-  
+}
 
-}.Clients-x {
+.Clients-x {
   height: 300px;
   float: left;
-
-  
-  
-
-
 }
 
 .form-groupc input {
   border-radius: 5px;
-  border: #fff;
+  border: rgb(10, 10, 10);
 }
 
 .fusion {
- 
   width: 100%;
   height: 15em;
   float: left;
   align-content: center;
   border-color: black;
-  padding-left:1px;
-
-
+  padding-left: 1px;
 }
-
-
 
 .over-lay {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
@@ -643,16 +529,13 @@ a {
   float: left;
   text-align: center;
   color: #fff;
-
 }
 
 .curten-content {
   width: 100%;
   height: 20em;
   margin-top: 2%;
-
   float: left;
-
 }
 
 .curten-img img {
@@ -660,7 +543,6 @@ a {
   height: 20em;
   padding: 5%;
 }
-
 
 .header {
   text-align: center;
@@ -676,7 +558,6 @@ a {
   padding: 0 4px;
 }
 
-
 .column {
   -ms-flex: 25%;
   flex: 25%;
@@ -691,14 +572,22 @@ a {
   width: 100%;
 }
 
-
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
-  
+
+  .whatsapp {
+    font-size: 70px;
+    width: 5%;
+    padding-left: 85%;
+    z-index: 1;
+    position: fixed;
+    top: 600px;
+    border-top-right-radius: 359px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -706,42 +595,60 @@ a {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
-  }.curten-section{
-    height: 550px;
-  }.card{
-    height:32em;
   }
-}@media screen and (max-width: 443px){
-  .navbar-nav{
-  width:100%;
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-    
-  }  .nav-item button {
+
+  .curten-section {
+    height: 550px;
+  }
+
+  .card {
+    height: 32em;
+  }
+
+  .footer-about {
+    width: 20em;
+    padding-left: 15%;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .nav-item button {
     border-color: #ffff;
     height: fit-content;
     border-right: 0.5px;
     width: 15em;
+  }
 
-  }.company-photo {
+  .company-photo {
     height: 300px;
     float: left;
-  }.footer-about{
-   margin-left:20%;
-  }.fusion {
+  }
+
+  .fusion {
     width: 100%;
     height: 10em;
     float: left;
     align-content: center;
     border-color: black;
-    padding-left:1px;
- }
+    padding-left: 1px;
+  }
+
+  .footer-about {
+    width: 12em;
+    margin-left: 10%;
+  }
 }
 
 .row :hover {
   transform: scale(1.03);
+}
 
-}.over-lay h1 {
-  margin-top:10%;
-
+.over-lay h1 {
+  margin-top: 10%;
 }
