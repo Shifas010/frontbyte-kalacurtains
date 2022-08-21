@@ -1,82 +1,62 @@
 body {
-
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-position: 0%;
   background-color: rgb(212, 230, 230);
 }
-
 a {
   color: #00B7FF;
-}
-
-.nav-item {
+}.nav-item {
   margin: 5%;
-}
-
-.navbar-nav {
+}.navbar-nav {
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
-}
-.nav-item button {
+}.nav-item button {
   border-color: #ffff;
   height: fit-content;
   border-radius: 10px;
-}
-.nav-item button :hover {
+}.nav-item button :hover {
   background-color: rgb(207, 194, 194);
   border-color: rgb(207, 194, 194);
   color: #fff;
-}
-.navbar {
+}.navbar {
  top: 0%;
   width: 100%;
-}
-#nav-pack {
+}#nav-pack {
   display: none;
   list-style: none;
-}
-#nav-pack ul {
+}#nav-pack ul {
   list-style: none;
   padding-top: 2%;
-}
-.nav-number {
+}.nav-number {
   float: right;
   list-style-type: none;
   color: rgb(4, 4, 4);
-}
-.dropdown-menu {
+}.dropdown-menu {
   margin-left: 50%;
-}
-#nav-packb {
+}#nav-packb {
   list-style: none;
-}
-#nav-packb ul {
+}#nav-packb ul {
   list-style: none;
   padding-top: 2%;
-}
-.image {
+}.image {
   border-top-left-radius: 100px;
   border-bottom-right-radius: 90px;
-}
-.figure {
+}.figure {
   width: 100%;
   float: left;
-}
-.carousel-item h5 {
+}.carousel-item h5 {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: rgb(210, 206, 206);
-}
-.header-top {
+}.header-top {
   height: auto;
   font-family: Paolo Biagini;
   text-align: center;
   padding-bottom: 5%;
   text-shadow: 2px 4px 6px;
   background-color: red;
-}
-.header-top:hover {
+}.header-top:hover {
   letter-spacing: 1.5px;
   transition: tranform 0.5;
   animation-name: move;
@@ -84,21 +64,16 @@ a {
   animation-timing-function: ease;
   animation: move 3s;
   animation-direction: ease out;
-}
-.header-bottam {
+}.header-bottam {
   height: auto;
   font-family: Paolo Biagini;
   text-align: center;
   padding-bottom: 5%;
   text-shadow: 2px 4px 6px;
-}
-
-.header-bottam:hover {
+}.header-bottam:hover {
   letter-spacing: 1.5px;
   transition: tranform 0.5;
-}
-
-.image:hover {
+}.image:hover {
   box-shadow: inset 1px 2px 2px -5px rgba(0, 0, 0, 0.2),
     -4px -4px 6px -1px rgba(238, 230, 230, 0.7),
     -0.5px -0.5px 10px rgb(198, 194, 194),
@@ -110,7 +85,6 @@ a {
   animation: move 3s;
   animation-direction: ease out;
 }
-
 @keyframes move {
   20% {
     left: 0px;
@@ -119,17 +93,14 @@ a {
   100% {
     left: 30px;
  }
-}
-
-.a-side {
+}.a-side {
   animation-name: move;
   animation-duration: 3s;
   animation-timing-function: ease;
   animation: move 2s;
   animation-direction: reverse;
 
-}
-.card {
+}.card {
   float: left;
   background-attachment: fixed;
   align-items: center;
@@ -145,10 +116,7 @@ a {
     -0.5px -0.5px 10px rgb(118, 116, 116),
     -0.5px -0.5px 10px rgba(236, 230, 230, 0.15),
     0px 12px 10px -10px rgba(0, 0, 0, 0.5);
-  
-}
-.flop-card {
-
+  }.flop-card {
   float: left;
   background-attachment: fixed;
   align-items: center;
@@ -210,14 +178,8 @@ a {
   display: inline-flex;
   width: fit-content;
   height: 10em;
-
-
-
-}
-
-.contact a {
+}.contact a {
   text-decoration-color: #ffff;
- 
  }.footer-about li{
   list-style:none;
  }.footer-about{
@@ -230,54 +192,30 @@ a {
   justify-content: center;
   margin:2%;
   width:20%;
- 
  }
-
 @media screen and (max-width:1228px) {
- 
-
   .footer-about li {
     font-size: 15px;
-  }
-
-  .whatsapp {
+  }.whatsapp {
     position: fixed;
    border-bottom:0%;
-
   }
-  
-  
   }
-
-
-
-
 @media screen and (max-width:740px) {
-
-
   .fab {
     text-align: right;
   }
-
   .btn {
     font-size: 10px;
-
-
   }
-
   .d-block {
     width: 100%;
     height: 400px;
-  
-
   }
-
   .card-img-top {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
-   
-
   }.footer-about{
     list-style-type: none;
     text-align: center;
@@ -288,32 +226,22 @@ a {
     justify-content: center;
     margin:5%;
     width:40%;
-   
    }
-}
-
-.footer {
+}.footer {
   width: 100%;
   background-color: black;
   margin-bottom: 0%;
   text-align: center;
   height: fit-content;
   text-decoration: none;
-
-}
-
-.footer p {
+}.footer p {
   color: rgb(80, 84, 84);
-}
-
-.company {
+}.company {
   width: 100%;
   height: fit-content;
   float: left;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.company-details {
+}.company-details {
   height:fit-content;
   float: left;
   text-align: center;
@@ -322,29 +250,19 @@ a {
   font-weight: 500;
   width:100%;
   color: black;
-  
-}.showroom img{
+} .showroom img{
   height:400px;
   float: left;
   width:100%;
   border-radius:2%;
   background-color: rgb(198, 235, 235);
-}
- 
-
-
-.company-photo {
+}.company-photo {
   height: 540px;
   float: left;
-}
-
-.company-photo iframe {
-
-  width: 100%;
+}.company-photo iframe {
+   width: 100%;
   height: 100%;
-}
-
-.whatsapp {
+}.whatsapp {
   font-size: 70px;
   width: 5%;
   padding-left: 85%;
@@ -352,66 +270,43 @@ a {
   position: fixed;
   top: 620px;
   border-top-right-radius: 359px;
-
-
 }
-
 @media screen and (max-width:992px) {
   .whatsapp {
     font-size: 50px;
     top: 520px;
   }
-
   .card-img-top {
     width: 70%;
-  }
-
-  .nav-item button {
+  } .nav-item button {
     border-color: #ffff;
     height: fit-content;
     border-right: 0.5px;
     width: 30em;
-
-  }.service-card {
+ }.service-card {
     float: left;
     height: fit-content;
     align-items: center;
     margin-right: 30px;
-  
-  
   }.company-photo {
     height: 340px;
     float: left;
-  }
-
-  #nav-pack {
+  }#nav-pack {
     display: contents;
     list-style-type: none;
-
-
-  }.card-page{
+ }.card-page{
     margin-right: 5%;
-
-  }
-
-  .dropdown-menu {
+}.dropdown-menu {
     margin-left: 0%;
-  }
-
-  #nav-packb {
+  } #nav-packb {
     display: none;
     list-style-type: none;
-
-
-  }.Clients {
+ }.Clients {
     height: 400px;
     float: left;
     border-color: black;
     display:none;
-  
-  
-  
-  }.card{
+ }.card{
     height:32em;
   }
   .showroom img{
@@ -421,101 +316,58 @@ a {
     border-radius:2%;
     background-color: rgb(198, 235, 235);
   }
-    
-  
-  
-  }@media screen and (min-width:992px){
+ }@media screen and (min-width:992px){
   .Clients-x {
     height: 300px;
     float: left;
     border-color: black;
     display:none;
    }
-   
-
-}
-
-  @media screen and (min-width:1552px) {
-   
-
-    .d-block {
+}@media screen and (min-width:1552px) {
+   .d-block {
       width: 100%;
       height: 600px;
-    }
-
-    .dropdown-menu {
+    }.dropdown-menu {
       margin-left: 40%;
     }
-  }
-
-
-.email {
+}.email {
   padding: 5%;
   background-color: rgb(193, 232, 230);
   float: left;
   width: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.curten-page {
+}.curten-page {
   float: left;
   margin-top: 5%;
-}
-
-.curten-section {
+}.curten-section {
   width: 100%;
   height: 540px;
   background-size: cover;
   background-position: center;
   align-items: center;
   float: left;
-}
-
-.form-control:hover {
+}.form-control:hover {
   background-color: #f0b6a8;
-}
-
-.form-groupc {
+}.form-groupc {
   background-color: rgb(6, 6, 6);
   border: #f0b6a8;
   border-radius: 5px;
-}
-
-.form-groupc.btn:hover {
+}.form-groupc.btn:hover {
   background-color: #f0b6a8;
-  
-
 }.Clients-x {
   height: 300px;
   float: left;
-
-  
-  
-
-
-}
-
-.form-groupc input {
+}.form-groupc input {
   border-radius: 5px;
   border: rgb(10, 10, 10);
-}
-
-.fusion {
- 
+}.fusion {
   width: 100%;
   height: 15em;
   float: left;
   align-content: center;
   border-color: black;
   padding-left:1px;
-
-
-}
-
-
-
-.over-lay {
+}.over-lay {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   width: 100%;
   height: 540px;
@@ -524,65 +376,42 @@ a {
   float: left;
   text-align: center;
   color: #fff;
-
-}
-
-.curten-content {
+}.curten-content {
   width: 100%;
   height: 20em;
   margin-top: 2%;
-
   float: left;
-
-}
-
-.curten-img img {
+}.curten-img img {
   width: 30em;
   height: 20em;
   padding: 5%;
-}
-
-
-.header {
+}.header {
   text-align: center;
   padding: 32px;
-}
-
-.row {
+}.row {
   display: -ms-flexbox;
   width: 100%;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 4px;
-}
-
-
-.column {
+}.column {
   -ms-flex: 25%;
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
-}
-
-.column img {
+}.column img {
   margin-top: 8px;
   transition: .2s;
   vertical-align: middle;
   width: 100%;
-}
-
-
-@media screen and (max-width: 800px) {
+}@media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
-  }
-  
-}
-
-@media screen and (max-width: 600px) {
+  } 
+}@media screen and (max-width: 600px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
@@ -591,25 +420,20 @@ a {
     height: 550px;
   }.card{
     height:32em;
-   
- 
-  }
+   }
 }@media screen and (max-width: 443px){
   .navbar-nav{
   width:100%;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-    
+  font-family: 'Courier New', Courier, monospace;  
   }  .nav-item button {
     border-color: #ffff;
     height: fit-content;
     border-right: 0.5px;
     width: 15em;
-
   }.company-photo {
     height: 300px;
     float: left;
- 
   }.fusion {
     width: 100%;
     height: 10em;
@@ -627,14 +451,9 @@ a {
   justify-content: center;
   margin:1%;
   width:100%;
- 
  }
-}
-
-.row :hover {
+}.row :hover {
   transform: scale(1.03);
-
 }.over-lay h1 {
   margin-top:10%;
-
 }
