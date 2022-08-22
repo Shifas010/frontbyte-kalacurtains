@@ -33,6 +33,7 @@ a {
   color: rgb(4, 4, 4);
 }.dropdown-menu {
   margin-left: 50%;
+
 }#nav-packb {
   list-style: none;
 }#nav-packb ul {
@@ -451,9 +452,12 @@ a {
   justify-content: center;
   margin:1%;
   width:100%;
- }
+ }.dropdown-menu {
+  font-size:95%;
+
 }.row :hover {
   transform: scale(1.03);
 }.over-lay h1 {
   margin-top:10%;
+}
 }
